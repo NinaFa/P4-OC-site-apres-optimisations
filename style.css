@@ -1044,3 +1044,15 @@ h4 {
 ul > li {
     line-height: 3rem;
 }
+
+#bloc-4-portfolio > sm-6 img {
+    height: 430px;
+    width: 430px;
+}
+
+@media (min-width: 431px) {
+    #bloc-4-portfolio > sm-6 img {
+        height: 270px;
+        width: 270px;
+    }
+}
