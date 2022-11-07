@@ -6,7 +6,7 @@
     font-style: normal
 }
 
-.et-icon-adjustments,
+/* .et-icon-adjustments,
 .et-icon-alarmclock,
 .et-icon-anchor,
 .et-icon-aperture,
@@ -17,7 +17,6 @@
 .et-icon-bike,
 .et-icon-book-open,
 .et-icon-briefcase,
-.et-icon-browser,
 .et-icon-calendar,
 .et-icon-camera,
 .et-icon-caution,
@@ -33,7 +32,6 @@
 .et-icon-documents,
 .et-icon-download,
 .et-icon-dribbble,
-.et-icon-edit,
 .et-icon-envelope,
 .et-icon-expand,
 .et-icon-facebook,
@@ -74,7 +72,6 @@
 .et-icon-picture,
 .et-icon-pictures,
 .et-icon-piechart,
-.et-icon-presentation,
 .et-icon-pricetags,
 .et-icon-printer,
 .et-icon-profile-female,
@@ -105,7 +102,11 @@
 .et-icon-upload,
 .et-icon-video,
 .et-icon-wallet,
-.et-icon-wine {
+.et-icon-wine */
+
+.et-icon-edit,
+.et-icon-presentation,
+.et-icon-browser { 
     font-family: et-line;
     speak: none;
     font-style: normal;
@@ -118,7 +119,20 @@
     display: inline-block
 }
 
-.et-icon-mobile:before {
+
+.et-icon-browser:before {
+    content: "\e00c"
+}
+
+.et-icon-presentation:before {
+    content: "\e00e"
+}
+
+.et-icon-edit:before {
+    content: "\e01c"
+}
+
+/* .et-icon-mobile:before {
     content: "\e000"
 }
 
@@ -166,16 +180,8 @@
     content: "\e00b"
 }
 
-.et-icon-browser:before {
-    content: "\e00c"
-}
-
 .et-icon-calendar:before {
     content: "\e00d"
-}
-
-.et-icon-presentation:before {
-    content: "\e00e"
 }
 
 .et-icon-picture:before {
@@ -228,10 +234,6 @@
 
 .et-icon-focus:before {
     content: "\e01b"
-}
-
-.et-icon-edit:before {
-    content: "\e01c"
 }
 
 .et-icon-adjustments:before {
@@ -516,4 +518,4 @@
 
 .et-icon-dribbble:before {
     content: "\e063"
-}
+} */
